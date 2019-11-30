@@ -381,7 +381,9 @@ summary {
 <li><strong>interval</strong>: Identifier for the 5-minute interval in which measurement was taken<br />
 The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.</li>
 </ul>
-<p>Loading and preprocessing the data</p>
+</div>
+<div id="loading-and-preprocessing-the-data" class="section level2">
+<h2>Loading and preprocessing the data</h2>
 <pre class="r"><code>activity &lt;- read.csv(&quot;activity.csv&quot;)
 activity$date&lt;-as.Date(activity$date, format =&quot;%Y-%m-%d&quot;)
 str(activity)</code></pre>

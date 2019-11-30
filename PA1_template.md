@@ -27,7 +27,7 @@ The variables included in this dataset are:
 - **interval**: Identifier for the 5-minute interval in which measurement was taken  
 The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.
 
-Loading and preprocessing the data
+## Loading and preprocessing the data
 
 ```r
 activity <- read.csv("activity.csv")
