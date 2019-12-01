@@ -458,7 +458,7 @@ print(maxInterval)</code></pre>
 <pre class="r"><code>numMissingVal&lt;-sum(is.na(activity$steps))
 print(numMissingVal)</code></pre>
 <pre><code>## [1] 2304</code></pre>
-<p>There are <code>numMissingVal</code> &lt;color:red&quot;&gt;NA</span>s in the datasets.</p>
+<p>There are 2304 <span style="color:red">NA</span>s in the datasets.</p>
 <p>In order to eliminate all <span style="color:red">NA</span>s in the dataset without disturb the statistic property too much, the <span style="color:red">NA</span>s in the dataset are replaced by average number of steps in the corresponding interval.</p>
 <pre class="r"><code>activity_filled&lt;- activity
 interval&lt;-activity_filled$interval[is.na(activity$steps)]

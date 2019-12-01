@@ -183,7 +183,7 @@ print(numMissingVal)
 ```
 ## [1] 2304
 ```
-There are `numMissingVal` <color:red">NA</span>s in the datasets.
+There are 2304 <span style="color:red">NA</span>s in the datasets.
 
 In order to eliminate all <span style="color:red">NA</span>s in the dataset without disturb the statistic property too much, the <span style="color:red">NA</span>s in the dataset are replaced by average number of steps in the corresponding interval.
 

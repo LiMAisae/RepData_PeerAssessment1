@@ -88,7 +88,7 @@ Total number of missing values
 numMissingVal<-sum(is.na(activity$steps))
 print(numMissingVal)
 ```
-There are `numMissingVal` <color:red">NA</span>s in the datasets.
+There are `r numMissingVal` <span style="color:red">NA</span>s in the datasets.
 
 In order to eliminate all <span style="color:red">NA</span>s in the dataset without disturb the statistic property too much, the <span style="color:red">NA</span>s in the dataset are replaced by average number of steps in the corresponding interval.
 
