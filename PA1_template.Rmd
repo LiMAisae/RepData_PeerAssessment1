@@ -75,7 +75,7 @@ dev.off()
 
 5-minute interval containing the maximum average number of step averaged across all days
 ```{r maxInterval}
-maxInterval<-which.max(aveSteps_interval$aveSteps)
+maxInterval<-aveSteps_interval$interval[which.max(aveSteps_interval$aveSteps)]
 print(maxInterval)
 ```
 The 5-minute interval containing the maximum average number of step averaged across all days is `r maxInterval` 

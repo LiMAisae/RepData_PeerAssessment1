@@ -447,10 +447,10 @@ plot(aveSteps_interval$interval, aveSteps_interval$aveSteps,
 <pre><code>## png 
 ##   2</code></pre>
 <p>5-minute interval containing the maximum average number of step averaged across all days</p>
-<pre class="r"><code>maxInterval&lt;-which.max(aveSteps_interval$aveSteps)
+<pre class="r"><code>maxInterval&lt;-aveSteps_interval$interval[which.max(aveSteps_interval$aveSteps)]
 print(maxInterval)</code></pre>
-<pre><code>## [1] 104</code></pre>
-<p>The 5-minute interval containing the maximum average number of step averaged across all days is 104</p>
+<pre><code>## [1] 835</code></pre>
+<p>The 5-minute interval containing the maximum average number of step averaged across all days is 835</p>
 </div>
 <div id="imputing-missing-values" class="section level2">
 <h2>Imputing missing values</h2>
